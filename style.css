@@ -9,5 +9,34 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
+.top-conatiner h1 {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+.text {
+    margin: 50px 5%;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li a {
+    margin: 0 12px;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: blue;
+}
